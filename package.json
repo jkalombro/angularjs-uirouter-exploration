@@ -1,0 +1,16 @@
+{
+  "name": "angularjsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.bundle.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Jk Alombro",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.7",
+    "angular": "^1.7.8",
+    "bootstrap": "^4.3.1"
+  }
+}

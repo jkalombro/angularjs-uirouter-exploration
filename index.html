@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AngularJS UI Router Demo</title>
+    <link rel="shortcut icon" href="./src/styles/images/favicon.ico">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/styles/css/app.css">
+</head>
+<body>
+    
+    <div ui-view="header"></div>
+    <div ui-view="mainview"></div>
+
+    <!-- Scripts here  -->
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+
+    <!-- My Scripts here -->
+    <script src="./src/js/app.bundle.js"></script>
+</body>
+</html>
