@@ -25,7 +25,7 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
             },
             'mainview': {
                 templateUrl: './src/views/profile.html',
-                controller: 'homeController'
+                controller: 'profileController'
             }
         }
     })
@@ -37,7 +37,7 @@ app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $ur
             },
             'mainview': {
                 templateUrl: './src/views/settings.html',
-                controller: 'homeController'
+                controller: 'settingsController'
             }
         }
     })

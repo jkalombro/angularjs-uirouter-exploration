@@ -4,5 +4,17 @@ module.exports = {
         path: __dirname + '/src/js',
         filename: 'app.bundle.js'
     },
-    mode: 'production'
+    mode: 'production',
+    module: {
+        loaders: [
+            { 
+                test: /\.js$/, 
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015']
+                }
+            }
+        ]
+    }
 }
